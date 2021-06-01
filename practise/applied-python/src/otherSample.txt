@@ -1,0 +1,1 @@
+This is new text written in this file using 'w' mode in open.
