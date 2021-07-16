@@ -31,7 +31,7 @@ def main():
     diaplayOptions.display_options()
     try:
         entered_sheet_option = int(input('\nEnter the selection: '))
-        print(selected_row)
+        # print(selected_row)
         if entered_sheet_option == 1:
             data_received = semMarks.sem_marks(selected_row)
             if data_received is True:
