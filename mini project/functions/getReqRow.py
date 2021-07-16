@@ -1,7 +1,6 @@
 """
 Function to get the required row from the source file
 """
-
 import openpyxl
 
 

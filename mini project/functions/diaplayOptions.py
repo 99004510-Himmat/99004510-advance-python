@@ -1,3 +1,7 @@
+"""
+Function to display Sheet options from source file
+"""
+
 
 def display_options():
     print("Select 1 for the Semester Marks")

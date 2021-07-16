@@ -1,3 +1,6 @@
+"""
+Function to set the domains from the entered PS number from source file
+"""
 import openpyxl
 
 

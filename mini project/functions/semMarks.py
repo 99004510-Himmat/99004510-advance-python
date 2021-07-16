@@ -1,3 +1,6 @@
+"""
+Function to set the semester marks from the entered PS number from source file
+"""
 import openpyxl
 
 

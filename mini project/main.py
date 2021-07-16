@@ -10,8 +10,7 @@ from functions import listPSno, diaplayOptions, getReqRow, semMarks, hobbies, ci
 
 
 def main():
-    object_to_be_loaded = openpyxl.load_workbook(
-        "D:\\H\\Work\\Genesis\\99004510-advance python\\mini project\\resource\\raw_data.xlsx")
+    object_to_be_loaded = openpyxl.load_workbook("D:\\H\\Work\\Genesis\\99004510-advance python\\mini project\\resource\\raw_data.xlsx")
     sheet_to_be_loaded = object_to_be_loaded['Cities']
 
     row_data_list = []

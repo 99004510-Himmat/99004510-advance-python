@@ -1,8 +1,12 @@
+"""
+Function to list all the PS numbers from the source file
+"""
 import openpyxl
 
 
 def list_ps_no():
-    object_to_be_loaded = openpyxl.load_workbook("D:\\H\\Work\\Genesis\\99004510-advance python\\mini project\\resource\\raw_data.xlsx")
+    object_to_be_loaded = openpyxl.load_workbook(
+        "D:\\H\\Work\\Genesis\\99004510-advance python\\mini project\\resource\\raw_data.xlsx")
     sheet_to_be_loaded = object_to_be_loaded['Cities']
 
     ps_no = []
