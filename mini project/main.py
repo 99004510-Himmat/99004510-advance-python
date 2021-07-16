@@ -35,23 +35,23 @@ def main():
         if entered_sheet_option == 1:
             data_received = semMarks.sem_marks(selected_row)
             if data_received is True:
-                print('\nData retrieved')
+                print('\nData retrieved, check the results.xlsx')
         elif entered_sheet_option == 2:
             data_received = hobbies.hobbies(selected_row)
             if data_received is True:
-                print('\nData retrieved')
+                print('\nData retrieved, check the results.xlsx')
         elif entered_sheet_option == 3:
             data_received = cities.cities(selected_row)
             if data_received is True:
-                print('\nData retrieved')
+                print('\nData retrieved, check the results.xlsx')
         elif entered_sheet_option == 4:
             data_received = progLangs.programming_languages(selected_row)
             if data_received is True:
-                print('\nData retrieved')
+                print('\nData retrieved, check the results.xlsx')
         elif entered_sheet_option == 5:
             data_received = domains.domains(selected_row)
             if data_received is True:
-                print('\nData retrieved')
+                print('\nData retrieved, check the results.xlsx')
 
     except ValueError:
         print('\nEntered value is invalid.')
